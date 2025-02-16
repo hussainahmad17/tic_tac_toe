@@ -45,7 +45,3 @@ const checkwinner = () => {
 }
 
 
-btn.addEventListener("click", () => {    
-    boxes.forEach((box) => box.textContent = "");
-    checkwinner();
-})
